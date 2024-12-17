@@ -1,0 +1,212 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.up{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+  width: 80%;
+}
+
+.major{
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom,rgba(622,3,5,.2),rgba(123,3,4,.3));
+
+}
+.content{
+ 
+}
+
+.bodyCnt1{
+  margin-top: 4rem;
+  text-align: center;
+  }
+.search{
+ text-align: center;
+}
+
+.select{
+color:white;
+background-color: rgb(108, 252, 142);
+flex: 1;
+max-width: 8rem;
+height: 2rem;
+}
+
+.comboBoxSearch{
+  margin-top: 2rem;
+  
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  
+}
+
+.allCnt{
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  
+ flex-wrap: wrap;
+ overflow: hidden;
+}
+
+.cntAlign{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cnt{
+  flex-basis: 0;
+  min-height: 100%;
+  border: 0.5px solid rgba(127, 124, 124, 0.5);
+  padding: .5rem;
+  border-radius: 1rem;
+ 
+}
+.footer{
+justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom,rgba(123,3,4,.3),rgba(622,3,5,.2));
+}
+
+.right{
+  display: flex;
+}
+.column{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.admin{
+  margin-top: 1rem;
+ text-align: center; 
+}
+.adminInput{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+width: 30%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin: 2rem;
+  border: 1px solid rgb(99, 95, 95);
+  border-radius: 1rem;
+  gap: 2rem;
+}
+
+.admincent{
+  display: flex;
+  justify-content: center;
+}
+.inpu{
+  min-width: 100px;
+  max-width: 200px;
+  margin: 0;
+}
+
+.searchSchoolsName{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+
+}
+
+.searchSchoolsName > input{
+  flex: 1;
+  height: 2rem;;
+  max-width: 30%;
+}
+
+.searchSchoolsName > button{
+  flex: 1;
+ max-width: 20%;
+}
+button{
+  color: blue;
+  border:1px solid blue;
+  
+}
+
+button:hover{
+  border:none;
+  background-color: blue;
+  color: white;
+}
+
+.nextbtn{
+  min-width: 6rem;
+  min-height: 2rem;
+  font-size: medium;
+}
+.submitbtn{
+  min-width: 6rem;
+  min-height: 2rem;
+  font-size: medium;
+  border-radius: 10em;
+}
+
+.btn{
+  min-width: 6rem;
+  min-height: 2rem;
+}
+/* .inpu{
+  border: none;
+  border-bottom: 1px solid blue;
+  color: #747bff;
+} */
+
+.imag{
+
+}
+a{
+  margin: .5rem;
+}
